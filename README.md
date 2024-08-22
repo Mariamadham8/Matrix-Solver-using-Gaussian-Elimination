@@ -4,11 +4,8 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Usage](#usage)
 - [How Gaussian Elimination Works](#how-gaussian-elimination-works)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -24,38 +21,22 @@ The **Matrix Solver** is a Windows Forms Application developed in C# that solves
 Before running the application, ensure you have the following installed on your machine:
 - [Microsoft .NET Framework 4.7.2 or later](https://dotnet.microsoft.com/download/dotnet-framework)
 - [Visual Studio 2019 or later](https://visualstudio.microsoft.com/vs/), with the .NET desktop development workload installed (if you plan to modify or build the application from source)
-
-## Installation
-### Pre-compiled Binary
-1. Download the latest release from the [Releases](https://github.com/yourusername/matrix-solver/releases) section.
-2. Extract the ZIP file to a location of your choice.
-3. Run the `MatrixSolver.exe` file.
-
+##Usage
+1-Launch the Matrix Solver application.
+2-Enter the number of equations (rows) and variables (columns).
+3-Input the coefficients of each equation into the matrix grid provided.
+4-Click the Solve button to start the Gaussian Elimination process.
+5-View the solution displayed in the result section. If the system is inconsistent or has infinite solutions, appropriate messages will be displayed.
+6-To solve a new system, simply close the program and start again.
+  
 ##Steps:
 Pivoting: Select a pivot element (non-zero) from the current column and, if necessary, swap rows to move it into the diagonal position.
 Elimination: Use the pivot element to eliminate all entries below it in the current column by row operations.
 Back Substitution: Once the matrix is in upper triangular form, solve for the variables by substituting back from the last row upwards.
 This application implements these steps programmatically and handles edge cases such as singular matrices (which have no unique solutions).
 
-##Contributing
-Contributions are welcome! Please follow these steps to contribute:
+##How Gaussian Elimination Works:
+Gaussian Elimination is a method for solving linear systems by converting the system's augmented matrix into a row-echelon form, and then performing back-substitution to find the solution.
 
-Fork the repository.
-Create a new branch with a descriptive name:
-bash
-
-git checkout -b feature-name
-Make your changes and commit them:
-bash
-
-git commit -m "Description of changes"
-Push your changes to your fork:
-bash
-
-git push origin feature-name
-Open a Pull Request against the main branch of this repository.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-##Contact
+##Contact:
 If you have any questions, suggestions, or issues, feel free to contact me:
