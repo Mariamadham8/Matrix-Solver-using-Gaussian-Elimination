@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ui_linearsystem", "ui_linearsystem.csproj", "{89FC2857-B936-4B8C-8ED8-B8A3EB026F4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89FC2857-B936-4B8C-8ED8-B8A3EB026F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FC2857-B936-4B8C-8ED8-B8A3EB026F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FC2857-B936-4B8C-8ED8-B8A3EB026F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FC2857-B936-4B8C-8ED8-B8A3EB026F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46B15F80-3232-44F1-AC28-739070C84B61}
+	EndGlobalSection
+EndGlobal
